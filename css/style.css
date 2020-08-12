@@ -1,0 +1,247 @@
+/* Start */
+body {
+  scroll-behavior: smooth; }
+
+/* ===== Top Section ===== */
+#home {
+  min-height: 85px;
+  background-color: #252323; }
+  #home .logo {
+    float: left; }
+  #home .social {
+    padding-left: 55rem; }
+    #home .social a {
+      text-decoration: none; }
+    #home .social .fab {
+      font-size: 25px;
+      padding: 8px 10px;
+      margin: 5px;
+      color: #c1c1c1;
+      transition: all 0.4s ease-out; }
+    #home .social .fab:hover {
+      transform: rotate(360deg); }
+    #home .social .fb:hover {
+      color: #1974EF;
+      background: #ffffff;
+      border: 1px solid #1974EF; }
+    #home .social .tr:hover {
+      background-color: #1C9CEB;
+      color: #ffffff;
+      border: 1px solid #ffffff; }
+    #home .social .ln:hover {
+      background-color: #0070AC;
+      color: #ffffff;
+      border: 1px solid #ffffff; }
+    #home .social .yt:hover {
+      background-color: #ffffff;
+      color: #F60002;
+      border: 1px solid #F60002; }
+
+/* ===== Navbar ===== */
+#navbar {
+  padding: 0rem 1rem;
+  border-bottom: 3px solid #efefef; }
+  #navbar .navbar-nav .nav-item .nav-link {
+    color: #000000;
+    transition: all 0.2s ease-out;
+    font-weight: bold;
+    padding: 20px;
+    border-bottom: 3px solid transparent; }
+  #navbar .navbar-nav .nav-item .nav-link:hover {
+    color: #00BAC6;
+    border-bottom: 3px solid #00BAC6; }
+  #navbar .form-inline input {
+    background: url("../Image/search.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: 200px 8px; }
+
+/* ===== Slider ===== */
+.carousel-item {
+  height: 505px; }
+
+.carousel-img-1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)), url("../Image/slide1.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover; }
+
+.carousel-img-2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)), url("../Image/slide2.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover; }
+
+.carousel-img-3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)), url("../Image/slide3.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover; }
+
+/* ===== Service Section ===== */
+#service .service-head {
+  color: #818181; }
+  #service .service-head p {
+    font-size: 19.4px; }
+
+#service .services .card img {
+  height: 100px; }
+
+/* ===== Page Section ===== */
+#page {
+  background-color: #eeeeee; }
+
+/* ===== Blog Section ===== */
+#blog img {
+  width: 100%;
+  height: 50px; }
+
+/* ===== Contact Section ===== */
+#contact {
+  background-color: #514b51; }
+  #contact .tag p {
+    font-size: 19px; }
+  #contact .little p {
+    font-size: 17px; }
+  #contact i {
+    color: #00bac6; }
+  #contact hr {
+    border-top: 1px solid white; }
+
+/* ===== Footer Section ===== */
+#footer {
+  background-color: #212721;
+  color: #c1c1c1; }
+  #footer p {
+    display: inline-block; }
+  #footer .social {
+    display: inline-block;
+    float: right; }
+    #footer .social a {
+      text-decoration: none; }
+    #footer .social .fab {
+      font-size: 25px;
+      padding: 8px 10px;
+      margin: 5px;
+      color: #c1c1c1;
+      transition: all 0.4s ease-out; }
+    #footer .social .fab:hover {
+      transform: rotate(360deg); }
+    #footer .social .fb:hover {
+      color: #1974EF;
+      background: #ffffff;
+      border: 1px solid #1974EF; }
+    #footer .social .tr:hover {
+      background-color: #1C9CEB;
+      color: #ffffff;
+      border: 1px solid #ffffff; }
+    #footer .social .ln:hover {
+      background-color: #0070AC;
+      color: #ffffff;
+      border: 1px solid #ffffff; }
+    #footer .social .yt:hover {
+      background-color: #ffffff;
+      color: #F60002;
+      border: 1px solid #F60002; }
+
+/* ===== Media queries ===== */
+@media (max-width: 1199px) {
+  #home .social {
+    padding-left: 44rem; } }
+
+@media (max-width: 991px) {
+  #home .social {
+    padding-left: 29rem; }
+  #navbar .navbar-nav .nav-item .nav-link {
+    padding-left: 0px; } }
+
+@media (max-width: 767px) {
+  #home .social {
+    padding-left: 17rem; }
+  #navbar .navbar-nav .nav-item .nav-link {
+    padding-left: 0px; }
+  #footer p {
+    display: block;
+    text-align: center; }
+  #footer .social {
+    padding-right: 9rem; } }
+
+@media (max-width: 575px) {
+  #home .social {
+    padding-left: 17rem; }
+  #navbar .navbar-nav .nav-item .nav-link {
+    padding-left: 0px; }
+  #footer p {
+    display: block;
+    text-align: center; }
+  #footer .social {
+    padding-right: 3rem; } }
+
+@media (max-width: 414px) {
+  #home .social {
+    padding-left: 10rem; }
+    #home .social .fab {
+      font-size: 25px;
+      padding: 8px 10px;
+      margin: 5px; }
+  #navbar .navbar-nav .nav-item .nav-link {
+    padding: 10px;
+    padding-left: 0px; }
+  #navbar .form-inline input {
+    background-position: 340px 9px; }
+  .carousel-caption h2 {
+    font-size: 45px; }
+  #footer p {
+    display: block;
+    text-align: center; }
+  #footer .social {
+    padding-right: 5rem; } }
+
+@media (max-width: 395px) {
+  #home .social {
+    padding-left: 9rem; }
+    #home .social .fab {
+      font-size: 20px; } }
+
+@media (max-width: 375px) {
+  #home .social {
+    padding-left: 9rem; }
+    #home .social .fab {
+      font-size: 20px;
+      padding: 8px; }
+  #navbar .form-inline input {
+    background-position: 295px 9px; }
+  .carousel-caption h2 {
+    font-size: 43px; }
+  #footer p {
+    display: block;
+    text-align: center; }
+  #footer .social {
+    padding-right: 4rem; } }
+
+@media (max-width: 360px) {
+  #home .social {
+    padding-left: 8rem; }
+    #home .social .fab {
+      font-size: 20px;
+      padding: 8px; }
+  .carousel-caption h2 {
+    font-size: 42px; }
+  #footer p {
+    display: block;
+    text-align: center; }
+  #footer .social {
+    padding-right: 3rem; } }
+
+@media (max-width: 300px) {
+  #home .logo {
+    padding-left: 4.5rem;
+    padding-right: 4.5rem; }
+  #home .social {
+    padding-left: 3rem;
+    padding-top: 3rem; }
+    #home .social .fab {
+      font-size: 15px;
+      padding: 6px; }
+  .carousel-caption h2 {
+    font-size: 35px; } }
